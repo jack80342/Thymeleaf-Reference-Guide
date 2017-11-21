@@ -5,7 +5,7 @@ Thymeleaf 3.0 中文翻译 -《Thymeleaf参考指南》
 
 本文档翻译的版本：[3.0.RELEASE](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
 
-GitBook : 等周末有空了放上去
+GitBook : [Thymeleaf参考指南](https://jack80342.gitbooks.io/thymeleaf/content/)
 
 GitHub : [Thymeleaf参考指南](https://github.com/jack80342/Thymeleaf-Reference-Guide)
 
