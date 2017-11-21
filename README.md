@@ -10,7 +10,7 @@ GitBook : [Thymeleaf参考指南](https://jack80342.gitbooks.io/thymeleaf/conten
 GitHub : [Thymeleaf参考指南](https://github.com/jack80342/Thymeleaf-Reference-Guide)
 
 我和小白住在东京。  
-我们准备用周末的时间，将这本参考指南翻译到最新的版本。 
+我们准备用周末的时间，将这本参考指南翻译到最新的版本。  
 如果你想支持我们的工作🙃，你可以给小白买几条小鱼干🐟。
 
 |WeChatPay|ALipay|Paypal|
