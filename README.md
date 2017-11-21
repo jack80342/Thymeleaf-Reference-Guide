@@ -3,7 +3,7 @@ Thymeleaf 3.0 中文翻译 -《Thymeleaf参考指南》
 
 说明：
 
-本文档翻译的版本：[3.0.RELEASE](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
+本文档翻译的版本：[3.0.9.RELEASE](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
 
 GitBook : [Thymeleaf参考指南](https://jack80342.gitbooks.io/thymeleaf/content/)
 
