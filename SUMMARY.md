@@ -3,3 +3,4 @@
 * [I. 使用Thymeleaf](I. Using Thymeleaf/README.md)
     * 1 介绍Thymeleaf
         * [1.1 Thymeleaf是什么？](I. Using Thymeleaf/1.1 What is Thymeleaf.md)
+        * [1.2 Thymeleaf能处理什么类型的模版？](I. Using Thymeleaf/1.2 What kind of templates can Thymeleaf process.md)
