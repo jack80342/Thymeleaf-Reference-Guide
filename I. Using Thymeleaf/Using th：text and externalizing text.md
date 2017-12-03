@@ -24,6 +24,7 @@
 - `/WEB-INF/templates/home_es.properties`对应🇪🇸西班牙文文本。
 - `/WEB-INF/templates/home_pt_BR.properties`对应🇵🇹葡萄牙文（🇧🇷巴西文）文本。
 - `/WEB-INF/templates/home.properties`对应默认文本（如果地区没有匹配项）。
+
 让我们看一看我们的`home_es.properties`文件：
 ```properties
 home.welcome=¡Bienvenido a nuestra tienda de comestibles!
