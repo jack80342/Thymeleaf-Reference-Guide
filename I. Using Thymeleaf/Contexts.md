@@ -1,6 +1,6 @@
 ### 上下文
 
-In order to process our template, we will create a `HomeController` class implementing the `IGTVGController` interface we saw before:
+为了处理我们的模版，我们将会创建一个实现了`IGTVGController`接口的`HomeController`类。如下：
 ```java
 public class HomeController implements IGTVGController {
 
