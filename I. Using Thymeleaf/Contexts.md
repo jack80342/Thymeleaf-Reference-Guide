@@ -42,10 +42,10 @@ public interface IWebContext extends IContext {
 ```
 Thymeleaf核心库提供了这些接口里每一个的实现：
 
-- `org.thymeleaf.context.Context` implements `IContext`
-- `org.thymeleaf.context.WebContext` implements `IWebContext`
+- `org.thymeleaf.context.Context`实现了`IContext`接口
+- `org.thymeleaf.context.WebContext`实现了`IWebContext`接口
 
-And as you can see in the controller code, `WebContext` is the one we use. In fact we have to, because the use of a `ServletContextTemplateResolver` requires that we use a context implementing `IWebContext`.
+如同你在controller的代码里看到的那样，我们使用了`WebContext`。In fact we have to, because the use of a `ServletContextTemplateResolver` requires that we use a context implementing `IWebContext`.
 ```java
 WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
 ```
