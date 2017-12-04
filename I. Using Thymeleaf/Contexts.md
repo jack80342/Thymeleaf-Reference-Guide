@@ -18,7 +18,7 @@ public class HomeController implements IGTVGController {
 
 }
 ```
-我们第一眼看到的就是上下文的创建。一段Thymeleaf的上下文就是一个实现了`org.thymeleaf.context.IContext`接口的对象。上下文应当包含在变量的映射关系中执行模版引擎需要的所有数据，同时指明了外部化的信息必须用到的地区。
+我们第一眼看到的就是上下文的创建。一段Thymeleaf的上下文就是一个实现了`org.thymeleaf.context.IContext`接口的对象。上下文应当包含，在变量的映射关系中执行模版引擎需要的所有数据，同时指明了外部化的信息必须用到的地区。
 ```java
 public interface IContext {
 
@@ -40,7 +40,7 @@ public interface IWebContext extends IContext {
     
 }
 ```
-The Thymeleaf core library offers an implementation of each of these interfaces:
+Thymeleaf核心库提供了这些接口里每一个的实现：
 
 - `org.thymeleaf.context.Context` implements `IContext`
 - `org.thymeleaf.context.WebContext` implements `IWebContext`
