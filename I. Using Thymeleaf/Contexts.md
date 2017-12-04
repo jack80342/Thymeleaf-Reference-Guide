@@ -29,7 +29,7 @@ public interface IContext {
     
 }
 ```
-There is a specialized extension of this interface, `org.thymeleaf.context.IWebContext`, meant to be used in ServletAPI-based web applications (like SpringMVC).
+这个接口有一个专门的扩展：`org.thymeleaf.context.IWebContext`，用在基于ServletAPI的网络应用里（比如SpringMVC）。
 ```java
 public interface IWebContext extends IContext {
     
