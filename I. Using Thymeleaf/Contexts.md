@@ -45,15 +45,15 @@ Thymeleaf核心库提供了这些接口里每一个的实现：
 - `org.thymeleaf.context.Context`实现了`IContext`接口
 - `org.thymeleaf.context.WebContext`实现了`IWebContext`接口
 
-如同你在controller的代码里看到的那样，我们使用了`WebContext`。In fact we have to, because the use of a `ServletContextTemplateResolver` requires that we use a context implementing `IWebContext`.
+如同你在controller的代码里看到的那样，我们使用了`WebContext`。实际上，我们不得不这样做，因为`ServletContextTemplateResolver`需要一个实现了`IWebContext`接口的上下文。
 ```java
 WebContext ctx = new WebContext(request, response, servletContext, request.getLocale());
 ```
-Only three out of those four constructor arguments are required because the default locale for the system will be used if none is specified (although you should never let this happen in real applications).
+那四个构造器参数中只有三个是必须的，因为如果没有指定地区（尽管你不应当让这种情况发生在实际的应用里），系统里默认的地区将会被使用。
 
-There are some specialized expressions that we will be able to use to obtain the request parameters and the request, session and application attributes from the `WebContext` in our templates. For example:
+我们可以使用一些专门的表达式，从模版里的`WebContext`获取请求参数、请求、会话和应用属性。比如：
 
-- `${x}` will return a variable `x` stored into the Thymeleaf context or as a request attribute.
-- `${param.x}` will return a request parameter called `x` (which might be multivalued).
-- `${session.x}` will return a session attribute called `x`.
-- `${application.x}` will return a servlet context attribute called `x`.
+- `${x}`会返回存储在Thymeleaf上下文里的变量`x`，或者作为请求属性存储的变量`x`。
+- `${param.x}`会返回一个称为`x`的请求属性（可能多值）。
+- `${session.x}`会返回一个称为`x`的会话属性。
+- `${application.x}`会返回一个称为`x`的servlet上下文属性。
