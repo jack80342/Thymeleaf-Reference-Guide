@@ -18,7 +18,7 @@ public class HomeController implements IGTVGController {
 
 }
 ```
-The first thing we see is the creation of a context. A Thymeleaf context is an object implementing the `org.thymeleaf.context.IContext` interface. Contexts should contain all the data required for an execution of the template engine in a variables map, and also reference the locale that must be used for externalized messages.
+我们第一眼看到的就是上下文的创建。一段Thymeleaf的上下文就是一个实现了`org.thymeleaf.context.IContext`接口的对象。上下文应当包含在变量的映射关系中执行模版引擎需要的所有数据，同时指明了外部化的信息必须用到的地区。
 ```java
 public interface IContext {
 
