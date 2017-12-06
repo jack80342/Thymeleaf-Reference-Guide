@@ -4,7 +4,7 @@
 ```java
 templateEngine.process("home", ctx, response.getWriter());
 ```
-Let’s see the results of this using the Spanish locale:
+让我们看看使用西班牙🇪🇸地区后的结果：
 ```html
 <!DOCTYPE html>
 
