@@ -1,6 +1,6 @@
 ### 非转义文本
 
-The simplest version of our Home page seems to be ready now, but there is something we have not thought about… what if we had a message like this?
+现在，Home页面的最简单版本看起来已经准备就绪了，但是还有一些我们没有考虑到的情况……要是，我们有这样的一段信息，改怎么办呢？
 ```html
 home.welcome=Welcome to our <b>fantastic</b> grocery store!
 ```
