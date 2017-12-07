@@ -18,3 +18,4 @@
         * 3.2 与文本和变量有关的更多内容
             * [非转义文本](I. Using Thymeleaf/Unescaped Text.md)
             * [使用和显示变量](I. Using Thymeleaf/Using and displaying variables.md)
+    * [4 标准表达式语法](I. Using Thymeleaf/4 Standard Expression Syntax.md)
