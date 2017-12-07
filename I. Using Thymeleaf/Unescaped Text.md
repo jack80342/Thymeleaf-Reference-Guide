@@ -10,11 +10,11 @@ home.welcome=Welcome to our <b>fantastic</b> grocery store!
 ```
 这并不是我们期望的结果，因为`<b>`标签已经被转义了，所以浏览器里才会这样显示。
 
-This is the default behaviour of the `th:text` attribute. If we want Thymeleaf to respect our HTML tags and not escape them, we will have to use a different attribute: `th:utext` (for “unescaped text”):
+这是`th:text`属性的默认行为。如果我们想要Thymeleaf尊重我们的HTML标签不去转义它们，我们需要使用另一个不同的标签：`th:utext`。
 ```html
 <p th:utext="#{home.welcome}">Welcome to our grocery store!</p>
 ```
-This will output our message just like we wanted it:
+这将会同我们想要的那样，输出我们的信息：
 ```html
 <p>Welcome to our <b>fantastic</b> grocery store!</p>
 ```
