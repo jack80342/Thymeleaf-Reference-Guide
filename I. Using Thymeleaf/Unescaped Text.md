@@ -4,11 +4,11 @@
 ```html
 home.welcome=Welcome to our <b>fantastic</b> grocery store!
 ```
-If we execute this template like before, we will obtain:
+如果我们像之前一样执行模版，将会得到：
 ```html
 <p>Welcome to our &lt;b&gt;fantastic&lt;/b&gt; grocery store!</p>
 ```
-Which is not exactly what we expected, because our `<b>` tag has been escaped and therefore it will be displayed in the browser.
+这并不是我们期望的结果，因为`<b>`标签已经被转义了，所以浏览器里才会这样显示。
 
 This is the default behaviour of the `th:text` attribute. If we want Thymeleaf to respect our HTML tags and not escape them, we will have to use a different attribute: `th:utext` (for “unescaped text”):
 ```html
