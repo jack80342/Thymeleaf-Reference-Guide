@@ -19,27 +19,27 @@ But there are more types of expressions, and more interesting details to learn a
 - Literals
     - Text literals: 'one text', 'Another one!',…
     - Number literals: `0`, `34`, `3.0`, `12.3`,…
-    - Boolean literals: true, false
-    - Null literal: null
-    - Literal tokens: one, sometext, main,…
+    - Boolean literals: `true`, `false`
+    - Null literal: `null`
+    - Literal tokens: `one`, `sometext`, `main`,…
 - Text operations:
-    - String concatenation: +
-    - Literal substitutions: |The name is ${name}|
+    - String concatenation: `+`
+    - Literal substitutions: `|The name is ${name}|`
 - Arithmetic operations:
-    - Binary operators: +, -, *, /, %
-    - Minus sign (unary operator): -
+    - Binary operators: `+`, `-`, `*`, `/`, `%`
+    - Minus sign (unary operator): `-`
 - Boolean operations:
-    - Binary operators: and, or
-    - Boolean negation (unary operator): !, not
+    - Binary operators: `and`, `or`
+    - Boolean negation (unary operator): `!`, `not`
 - Comparisons and equality:
-    - Comparators: >, <, >=, <= (gt, lt, ge, le)
-    - Equality operators: ==, != (eq, ne)
+    - Comparators: `>`, `<`, `>=`, `<=` (`gt`, `lt`, `ge`, `le`)
+    - Equality operators: `==`, `!=` (`eq`, `ne`)
 - Conditional operators:
-    - If-then: (if) ? (then)
-    - If-then-else: (if) ? (then) : (else)
-    - Default: (value) ?: (defaultvalue)
+    - If-then: `(if) ? (then)`
+    - If-then-else: `(if) ? (then) : (else)`
+    - Default: `(value) ?: (defaultvalue)`
 - Special tokens:
-    - No-Operation: _
+    - No-Operation: `_`
 
 All these features can be combined and nested:
 ```
