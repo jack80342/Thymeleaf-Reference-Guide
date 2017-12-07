@@ -17,3 +17,4 @@
             * [执行模版引擎](I. Using Thymeleaf/Executing the template engine.md)
         * 3.2 与文本和变量有关的更多内容
             * [非转义文本](I. Using Thymeleaf/Unescaped Text.md)
+            * [使用和显示变量](I. Using Thymeleaf/Using and displaying variables.md)
