@@ -24,7 +24,7 @@ public void process(
         
 }
 ```
-We have added a `String` variable called `today` to our context, and now we can display it in our template:
+我们已经往上下文里添加了`String`变量`today`。现在我们就可以在模版里显示它了：
 ```html
 <body>
 
