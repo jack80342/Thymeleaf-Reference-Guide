@@ -34,8 +34,8 @@ public void process(
   
 </body>
 ```
-如你所见，我们仍旧使用`th:text`属性（这是正确的，因为我们想要替换标签的主体），但是这次语法有点不同，我们使用`${...}`，而不是`#{...}`表达式。This is a **variable expression**, and it contains an expression in a language called `OGNL (Object-Graph Navigation Language)` that will be executed on the context variables map we talked about before.
+如你所见，我们仍旧使用`th:text`属性（这是正确的，因为我们想要替换标签的主体），但是这次语法有点不同。我们使用`${...}`，而不是`#{...}`表达式。这是一个**变量表达式**，使用了`OGNL（对象导航图语言）`。它会在上下文变量的映射关系里被执行。
 
-The `${today}` expression simply means “get the variable called today”, but these expressions could be more complex (like `${user.name}` for “get the variable called user, and call its `getName()` method”).
+`${today}`表达式表示“取得叫做today的变量”，然而这些表达式可以变得更为复杂（比如`${user.name}` 指的是取得叫做user的变量，并调用它的for`getName()`方法）。
 
 There are quite a lot of possibilities in attribute values: messages, variable expressions… and quite a lot more. The next chapter will show us what all these possibilities are.
