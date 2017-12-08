@@ -1,12 +1,12 @@
 ### 使用和显示变量
 
-Now let’s add some more content to our home page. For example, we may want to display the date below our welcome message, like this:
+现在，让我们给主页添加更多内容。比如，我们可能想要在欢迎信息下面显示日期，就像这样：
 ```
 Welcome to our fantastic grocery store!
 
 Today is: 12 july 2010
 ```
-First of all, we will have to modify our controller so that we add that date as a context variable:
+首先，我们要修改controller，把日期作为上下文变量添加进去：
 ```java
 public void process(
             final HttpServletRequest request, final HttpServletResponse response,
