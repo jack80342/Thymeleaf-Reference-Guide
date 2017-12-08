@@ -34,7 +34,7 @@ public void process(
   
 </body>
 ```
-如你所见，我们仍旧使用`th:text`属性（这是正确的，因为我们想要替换标签的主体），but the syntax is a little bit different this time and instead of a `#{...}` expression value, we are using a `${...}` one. This is a **variable expression**, and it contains an expression in a language called `OGNL (Object-Graph Navigation Language)` that will be executed on the context variables map we talked about before.
+如你所见，我们仍旧使用`th:text`属性（这是正确的，因为我们想要替换标签的主体），但是这次语法有点不同，我们使用`${...}`，而不是`#{...}`表达式。This is a **variable expression**, and it contains an expression in a language called `OGNL (Object-Graph Navigation Language)` that will be executed on the context variables map we talked about before.
 
 The `${today}` expression simply means “get the variable called today”, but these expressions could be more complex (like `${user.name}` for “get the variable called user, and call its `getName()` method”).
 
