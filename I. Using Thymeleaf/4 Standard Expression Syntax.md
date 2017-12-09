@@ -1,14 +1,14 @@
 ### 4 标准表达式语法
 
-We will take a small break in the development of our grocery virtual store to learn about one of the most important parts of the Thymeleaf Standard Dialect: the Thymeleaf Standard Expression syntax.
+我们将暂停开发我们的虚拟杂货店，来学习Thymeleaf标准方言里最重要的部分：Thymeleaf标准表达式语法。
 
-We have already seen two types of valid attribute values expressed in this syntax: message and variable expressions:
+我们已经看过了两种有效的表达属性值的语法：信息和变量表达式。如下：
 ```html
 <p th:utext="#{home.welcome}">Welcome to our grocery store!</p>
 
 <p>Today is: <span th:text="${today}">13 february 2011</span></p>
 ```
-But there are more types of expressions, and more interesting details to learn about the ones we already know. First, let’s see a quick summary of the Standard Expression features:
+然而，还有更多类型的表达式，甚至已经学习过的表达式也还有更多有趣的细节需要学习。首先，让我们看看对标准表达式特性的总结：
 
 - Simple expressions:
     - Variable Expressions: `${...}`
