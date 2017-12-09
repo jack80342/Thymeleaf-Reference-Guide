@@ -38,4 +38,4 @@ public void process(
 
 `${today}`表达式表示“取得叫做today的变量”，然而这些表达式可以变得更为复杂（比如`${user.name}` 指的是取得叫做user的变量，并调用它的for`getName()`方法）。
 
-There are quite a lot of possibilities in attribute values: messages, variable expressions… and quite a lot more. The next chapter will show us what all these possibilities are.
+在属性值的选择上，有相当多的可能性：信息、变量表达式，等等。下一章将展示这些可能性。
