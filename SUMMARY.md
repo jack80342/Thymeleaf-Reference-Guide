@@ -20,3 +20,5 @@
             * [使用和显示变量](I. Using Thymeleaf/Using and displaying variables.md)
     * [4 标准表达式语法](I. Using Thymeleaf/4 Standard Expression Syntax.md)
         * [4.1 信息](I. Using Thymeleaf/4.1 Messages.md)
+        * [4.2 变量](I. Using Thymeleaf/4.2 Variables.md)
+            * [表达式基本对象](I. Using Thymeleaf/Expression Basic Objects.md)
