@@ -22,3 +22,4 @@
         * [4.1 信息](I. Using Thymeleaf/4.1 Messages.md)
         * [4.2 变量](I. Using Thymeleaf/4.2 Variables.md)
             * [表达式基本对象](I. Using Thymeleaf/Expression Basic Objects.md)
+            * [表达式工具对象](I. Using Thymeleaf/Expression Utility Objects.md)
