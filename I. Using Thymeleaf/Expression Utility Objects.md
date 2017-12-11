@@ -1,6 +1,6 @@
 ### 表达式工具对象
 
-Besides these basic objects, Thymeleaf will offer us a set of utility objects that will help us perform common tasks in our expressions.
+除了这些基本的对象，Thymeleaf还会提供给我们一套工具对象，帮助我们在表达式里执行常见的任务。
 
 - `#execInfo`: information about the template being processed.
 - `#messages`: methods for obtaining externalized messages inside variables expressions, in the same way as they would be obtained using #{…} syntax.
