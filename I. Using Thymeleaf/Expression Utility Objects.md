@@ -19,4 +19,4 @@
 - `#aggregates`: methods for creating aggregates on arrays or collections.
 - `#ids`: methods for dealing with id attributes that might be repeated (for example, as a result of an iteration).
 
-你可以在[附录B]里查看(http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expression-utility-objects)这些工具对象提供了哪些功能。
+你可以在[附录B](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expression-utility-objects)里查看这些工具对象提供了哪些功能。
