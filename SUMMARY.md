@@ -23,3 +23,4 @@
         * [4.2 变量](I. Using Thymeleaf/4.2 Variables.md)
             * [表达式基本对象](I. Using Thymeleaf/Expression Basic Objects.md)
             * [表达式工具对象](I. Using Thymeleaf/Expression Utility Objects.md)
+            * [重新格式化主页里的日期](I. Using Thymeleaf/Reformatting dates in our home page.md)
