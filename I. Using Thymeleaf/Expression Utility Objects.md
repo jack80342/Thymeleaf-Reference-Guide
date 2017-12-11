@@ -5,18 +5,18 @@
 - `#execInfo`: 与处理中的模版有关的信息
 - `#messages`: 在变量表达式内部包含外部化信息的方法，与使用#{…}语法时相同
 - `#uris`: 转义URLs/URIs部分的方法
-- `#conversions`: 执行配置好的转换服务的方法（如果有的话）
-- `#dates`: methods for `java.util.Date` objects: formatting, component extraction, etc.
-- `#calendars`: analogous to `#dates`, but for `java.util.Calendar` objects.
-- `#numbers`: methods for formatting numeric objects.
-- `#strings`: methods for `String` objects: contains, startsWith, prepending/appending, etc.
-- `#objects`: methods for objects in general.
-- `#bools`: methods for boolean evaluation.
-- `#arrays`: methods for arrays.
-- `#lists`: methods for lists.
-- `#sets`: methods for sets.
-- `#maps`: methods for maps.
-- `#aggregates`: methods for creating aggregates on arrays or collections.
-- `#ids`: methods for dealing with id attributes that might be repeated (for example, as a result of an iteration).
+- `#conversions`: 用于执行配置好的转换服务（如果有的话）
+- `#dates`: 用于`java.util.Date`对象的方法：格式化、组件提取，等等
+- `#calendars`: 类似与`#dates`，但是用于`java.util.Calendar`对象
+- `#numbers`: 用于格式化数值对象
+- `#strings`: 用于`String`对象：contains, startsWith, prepending/appending，等等
+- `#objects`: 用于一般的对象
+- `#bools`: 用于布尔求值
+- `#arrays`: 用于数组
+- `#lists`: 用于列表
+- `#sets`: 用于集合
+- `#maps`: 用于映射
+- `#aggregates`: 用于计算数组或者列表的总量
+- `#ids`: 用于处理可能重复的id属性（比如，迭代的结果）
 
 你可以在[附录B](http://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#appendix-b-expression-utility-objects)里查看这些工具对象提供了哪些功能。
