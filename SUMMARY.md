@@ -24,5 +24,5 @@
             * [表达式基本对象](I. Using Thymeleaf/Expression Basic Objects.md)
             * [表达式工具对象](I. Using Thymeleaf/Expression Utility Objects.md)
             * [重新格式化主页里的日期](I. Using Thymeleaf/Reformatting dates in our home page.md)
-        * [4.3 选择变量表达式（星号语法）](I. Using Thymeleaf/4.3 Expressions on selections (asterisk syntax).md)
+        * [4.3 选择变量表达式（星号语法）](I. Using Thymeleaf/4.3 Expressions on selections （asterisk syntax）.md)
         * [4.4 链接URL](I. Using Thymeleaf/4.4 Link URLs.md)
