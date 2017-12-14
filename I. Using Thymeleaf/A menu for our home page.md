@@ -1,6 +1,6 @@
 ### 主页的菜单栏
 
-Now that we know how to create link URLs, what about adding a small menu in our home page for some of the other pages in the site?
+现在，我们知道怎么创建链接URL了。要不，为了能够跳转到其它页面，在我们的主页里添加一个小菜单栏吧？
 ```html
 <p>Please select an option</p>
 <ol>
