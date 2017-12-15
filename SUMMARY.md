@@ -29,4 +29,9 @@
             * [主页的菜单栏](I. Using Thymeleaf/A menu for our home page.md)
             * [服务器根相对路径](I. Using Thymeleaf/Server root relative URLs.md)
         * [4.5 分段](I. Using Thymeleaf/4.5 Fragments.md)
-        
+        * 4.6 字面量
+            * [文本字面量](I. Using Thymeleaf/Text literals.md)
+            * [数字字面量](I. Using Thymeleaf/Number literals.md)
+            * [布尔字面量](I. Using Thymeleaf/Boolean literals.md)
+            * [null字面量](I. Using Thymeleaf/The null literal.md)
+            * [字面量标记](I. Using Thymeleaf/Literal tokens.md)
