@@ -1,14 +1,14 @@
 ### 字面量标记
 
-Numeric, boolean and null literals are in fact a particular case of literal tokens.
+数字、布尔和null字面量实际上是字面量标记的一种特殊情况。
 
-These tokens allow a little bit of simplification in Standard Expressions. They work exactly the same as text literals (`'...'`), but they only allow letters (`A-Z` and `a-z`), numbers (`0-9`), brackets (`[` and `]`), dots (`.`), hyphens (`-`) and underscores (`_`). So no whitespaces, no commas, etc.
+在标准表达式里，这些标记还可以更简单。它们与文本字面量（`'...'`）完全相同，但是只允许字母（`A-Z`和`a-z`），数字（`0-9`），括号（`[`和`]`），点（`.`），连字符（`-`）和下划线（`_`）。所以，空白不行，逗号不行，等等。
 
-The nice part? Tokens don’t need any quotes surrounding them. So we can do this:
+好的地方？标记不需要任何的引号包围它们。所以我们可以这样写：
 ```html
 <div th:class="content">...</div>
 ```
-instead of:
+代替：
 ```html
 <div th:class="'content'">...</div>
 ```
