@@ -35,3 +35,5 @@
             * [布尔字面量](I. Using Thymeleaf/Boolean literals.md)
             * [null字面量](I. Using Thymeleaf/The null literal.md)
             * [字面量标记](I. Using Thymeleaf/Literal tokens.md)
+        * [4.7 文本拼接](I. Using Thymeleaf/4.7 Appending texts.md)
+        * [4.8 字面量置换](I. Using Thymeleaf/4.8 Literal substitutions.md)
