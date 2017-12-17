@@ -37,3 +37,6 @@
             * [字面量标记](I. Using Thymeleaf/Literal tokens.md)
         * [4.7 文本拼接](I. Using Thymeleaf/4.7 Appending texts.md)
         * [4.8 字面量置换](I. Using Thymeleaf/4.8 Literal substitutions.md)
+        * [4.9 算术运算](I. Using Thymeleaf/4.9 Arithmetic operations.md)
+        * [4.10 比较和相等](I. Using Thymeleaf/4.10 Comparators and Equality.md)
+        * [4.11 条件表达式](I. Using Thymeleaf/4.11 Conditional expressions.md)
