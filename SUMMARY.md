@@ -42,3 +42,5 @@
         * [4.11 条件表达式](I. Using Thymeleaf/4.11 Conditional expressions.md)
         * [4.12 默认表达式（猫王运算符）](I. Using Thymeleaf/4.12 Default expressions（Elvis operator）.md)
         * [4.13 无操作标记](I. Using Thymeleaf/4.13 The No-Operation token.md)
+        * [4.15 数据转换/格式化](I. Using Thymeleaf/4.15 Data Conversion and Formatting.md)
+        * [4.14 预处理](I. Using Thymeleaf/4.14 Preprocessing.md)
