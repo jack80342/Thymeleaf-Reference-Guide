@@ -46,3 +46,4 @@
         * [4.14 预处理](I. Using Thymeleaf/4.14 Preprocessing.md)
     * [5 设置属性值](I. Using Thymeleaf/5 Setting Attribute Values.md)
         * [5.1 设置任何属性的值](I. Using Thymeleaf/5.1 Setting the value of any attribute.md)
+        * [5.2 为指定的属性设置值](I. Using Thymeleaf/5.2 Setting value to specific attributes.md)
