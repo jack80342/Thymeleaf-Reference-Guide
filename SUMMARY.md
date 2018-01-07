@@ -47,3 +47,8 @@
     * [5 设置属性值](I. Using Thymeleaf/5 Setting Attribute Values.md)
         * [5.1 设置任何属性的值](I. Using Thymeleaf/5.1 Setting the value of any attribute.md)
         * [5.2 为指定的属性设置值](I. Using Thymeleaf/5.2 Setting value to specific attributes.md)
+        * [5.3 一次设置多个值](I. Using Thymeleaf/5.3 Setting more than one value at a time.md)
+        * [5.4 附加与前置](I. Using Thymeleaf/5.4 Appending and prepending.md)
+        * [5.5 定值布尔属性](I. Using Thymeleaf/5.5 Fixed-value boolean attributes.md)
+        * [5.6 设置任何属性的值（默认的属性处理器）](I. Using Thymeleaf/5.6 Setting the value of any attribute （default attribute processor）.md)
+        * [5.7 对HTML5友好的属性和元素名的支持](I. Using Thymeleaf/5.7 Support for HTML5-friendly attribute and element names.md)
