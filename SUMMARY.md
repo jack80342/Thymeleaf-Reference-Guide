@@ -54,7 +54,7 @@
         * [5.7 对HTML5友好的属性和元素名的支持](I. Using Thymeleaf/5.7 Support for HTML5-friendly attribute and element names.md)
     * [6 遍历](I. Using Thymeleaf/6 Iteration.md)
         * [6.1 遍历基础](I. Using Thymeleaf/6.1 Iteration basics.md)
-            * [使用th:each](I. Using Thymeleaf/Using th:each.md)
+            * [使用th:each](I. Using Thymeleaf/Using th：each.md)
             * [可遍历值](I. Using Thymeleaf/Iterable values.md)
         * [6.2 保持遍历状态](I. Using Thymeleaf/6.2 Keeping iteration status.md)
         * [6.3 通过数据的懒惰检索实现优化](I. Using Thymeleaf/6.3 Optimizing through lazy retrieval of data.md)
