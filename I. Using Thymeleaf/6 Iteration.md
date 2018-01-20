@@ -1,3 +1,3 @@
 ### 6 遍历
 
-So far we have created a home page, a user profile page and also a page for letting users subscribe to our newsletter… but what about our products? For that, we will need a way to iterate over items in a collection to build out our product page.
+到目前为止，我们已经创建了主页，用户资料页面，还有一个让用户可以订阅我们的简讯的页面。但是，我们的产品怎么办呢？我们需要一种方法遍历集合里的项目，来完成我们的产品页面。
