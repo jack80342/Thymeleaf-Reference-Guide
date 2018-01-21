@@ -1,6 +1,6 @@
 ### 使用th:each
 
-For our product list page, we will need a controller method that retrieves the list of products from the service layer and adds it to the template context:
+对于我们的产品列表页面，我们需要一个控制器方法，来从服务层获得产品列表，并把它添加到模版上下文：
 ```html
 public void process(
         final HttpServletRequest request, final HttpServletResponse response,
