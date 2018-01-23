@@ -17,7 +17,7 @@ public void process(
     
 }
 ```
-And then we will use th:each in our template to iterate over the list of products:
+然后，我们在我们的模版里使用th:each来遍历产品列表：
 ```html
 <!DOCTYPE html>
 
@@ -55,7 +55,7 @@ And then we will use th:each in our template to iterate over the list of product
 
 </html>
 ```
-That `prod : ${prods}` attribute value you see above means “for each element in the result of evaluating `${prods}`, repeat this fragment of template, using the current element in a variable called prod”. Let’s give a name each of the things we see:
+你在上面看到的那个`prod : ${prods}`属性值的意思是“对于求值`${prods}`结果里的每一个元素”，repeat this fragment of template, using the current element in a variable called prod”. Let’s give a name each of the things we see:
 
 - We will call `${prods}` the iterated expression or iterated variable.
 - We will call `prod` the iteration variable or simply iter variable.
