@@ -55,7 +55,7 @@ public void process(
 
 </html>
 ```
-你在上面看到的那个`prod : ${prods}`属性值的意思是“对于求值`${prods}`结果里的每一个元素”，repeat this fragment of template, using the current element in a variable called prod”. Let’s give a name each of the things we see:
+你在上面看到的那个`prod : ${prods}`属性值的意思是“对于求值`${prods}`结果里的每一个元素，重复这段模版，在一个叫作prod的变量里使用当前的元素”。让我们给看到的每一个东西取一个名字：
 
 - We will call `${prods}` the iterated expression or iterated variable.
 - We will call `prod` the iteration variable or simply iter variable.
