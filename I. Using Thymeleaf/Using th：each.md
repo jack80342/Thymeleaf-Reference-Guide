@@ -57,7 +57,7 @@ public void process(
 ```
 你在上面看到的那个`prod : ${prods}`属性值的意思是“对于求值`${prods}`结果里的每一个元素，重复这段模版，在一个叫作prod的变量里使用当前的元素”。让我们给看到的每一个东西取一个名字：
 
-- We will call `${prods}` the iterated expression or iterated variable.
-- We will call `prod` the iteration variable or simply iter variable.
+- 我们把`${prods}`称为被遍历表达式或者被遍历变量。
+- 我们把`prod`称为遍历变量。
 
-Note that the `prod` iter variable is scoped to the `<tr>` element, which means it is available to inner tags like `<td>`.
+需要注意`prod`遍历变量的作用范围是`<tr>`元素，这意味着可以使用内部标签，像`<td>`。
