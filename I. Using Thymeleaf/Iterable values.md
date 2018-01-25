@@ -4,7 +4,7 @@
 
 - 任何实现`java.util.Iterable`的对象
 - 任何实现`java.util.Enumeration`的对象
-- Any object implementing `java.util.Iterator`, whose values will be used as they are returned by the iterator, without the need to cache all values in memory.
-- Any object implementing `java.util.Map`. When iterating maps, iter variables will be of class `java.util.Map.Entry`.
-- Any array.
+- 任何实现`java.util.Iterator`的对象，它的值会被使用，因为它们由遍历器返回，不需要在内存中缓存所有值。
+- 任何实现`java.util.Map`的对象。当遍历map时，遍历变量是`java.util.Map.Entry`类
+- 任何数组
 - Any other object will be treated as if it were a single-valued list containing the object itself.
