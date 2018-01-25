@@ -7,4 +7,4 @@
 - 任何实现`java.util.Iterator`的对象，它的值会被使用，因为它们由遍历器返回，不需要在内存中缓存所有值。
 - 任何实现`java.util.Map`的对象。当遍历map时，遍历变量是`java.util.Map.Entry`类
 - 任何数组
-- Any other object will be treated as if it were a single-valued list containing the object itself.
+- 任何其它的对象，会被当作包含此对象的单值列表
