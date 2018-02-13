@@ -60,3 +60,4 @@
         * [6.3 通过数据的懒惰检索实现优化](I. Using Thymeleaf/6.3 Optimizing through lazy retrieval of data.md)
     * 7 条件求值
     	* [7.1 简单条件：if与unless](I. Using Thymeleaf/7.1 Simple conditionals：if and unless.md)
+    	* [7.2 switch声明](I. Using Thymeleaf/7.2 Switch statements.md)
