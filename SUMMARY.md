@@ -61,3 +61,6 @@
     * 7 条件求值
     	* [7.1 简单条件：if与unless](I. Using Thymeleaf/7.1 Simple conditionals：if and unless.md)
     	* [7.2 switch声明](I. Using Thymeleaf/7.2 Switch statements.md)
+    * 8 模版设计
+        * 8.1 包含模版片段
+            * [定义和引用片段](I. Using Thymeleaf/Defining and referencing fragments.md)
