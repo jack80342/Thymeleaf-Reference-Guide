@@ -1,6 +1,6 @@
 ### 定义和引用片段
 
-In our templates, we will often want to include parts from other templates, parts like footers, headers, menus…
+在我们的模版里，我们会时常想要包含来自其它模版的部分，比如页脚、页眉、菜单……
 
 In order to do this, Thymeleaf needs us to define these parts, “fragments”, for inclusion, which can be done using the `th:fragment `attribute.
 
