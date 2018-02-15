@@ -2,7 +2,7 @@
 
 在我们的模版里，我们会时常想要包含来自其它模版的部分，比如页脚、页眉、菜单……
 
-In order to do this, Thymeleaf needs us to define these parts, “fragments”, for inclusion, which can be done using the `th:fragment `attribute.
+为了这样做，Thymeleaf需要我们定义这些部分——片段，用来包含进其它模版。它可以用`th:fragment`属性定义。
 
 Say we want to add a standard copyright footer to all our grocery pages, so we create a `/WEB-INF/templates/footer.html` file containing this code:
 ```html
