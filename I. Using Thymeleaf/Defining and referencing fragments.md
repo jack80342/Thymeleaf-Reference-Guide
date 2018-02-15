@@ -4,7 +4,7 @@
 
 为了这样做，Thymeleaf需要我们定义这些部分——片段，用来包含进其它模版。它可以用`th:fragment`属性定义。
 
-比如，我们想要给所有的杂货店页面添加一个标准的版权页脚。我们创建了`/WEB-INF/templates/footer.html`文件，包含以下代码：
+假设，我们想要给所有的杂货店页面添加一个标准的版权页脚。我们创建了`/WEB-INF/templates/footer.html`文件，包含以下代码：
 ```html
 <!DOCTYPE html>
 
