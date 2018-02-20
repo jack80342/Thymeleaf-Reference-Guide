@@ -20,7 +20,7 @@
   
 </html>
 ```
-The code above defines a fragment called `copy` that we can easily include in our home page using one of the `th:insert` or `th:replace` attributes (and also `th:include`, though its use is no longer recommended since Thymeleaf 3.0):
+上面的代码定义一个叫做`copy`的片段。我们可以使用`th:insert`或者`th:replace`属性（或者`th:include`，尽管在Thymeleaf 3.0之后，不推荐使用它）把它包含进我们的主页：
 ```html
 <body>
 
