@@ -30,7 +30,7 @@
   
 </body>
 ```
-Note that `th:insert` expects a fragment expression (`~{...}`), which is an expression that results in a fragment. In the above example though, which is a non-complex fragment expression, the (`~{`,`}`) enclosing is completely optional, so the code above would be equivalent to:
+注意：`th:insert`期待一个分段表达式(`~{...}`)。它的求值结果会产生一个片段。在上面的例子里，分段表达式并不复杂。而且，(`~{`,`}`) 封闭是完全可选的，所以上面的代码等价于：
 ```html
 <body>
 
