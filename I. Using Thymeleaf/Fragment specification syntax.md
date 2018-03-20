@@ -21,7 +21,7 @@ Markup Selector语法由底层的AttoParser解析库定义，与XPath表达式�
 <div th:insert="footer :: (${user.isAdmin}? #{footer.admin} : #{footer.normaluser})"></div>
 ```
 
-再次注意：在`th:insert`/`th:replaceNote`里可以没有`~{...}`。
+再次注意：在`th:insert`/`th:replace`里可以没有`~{...}`。
 
 片段可以包含任何的`th:*`属性。一旦片段被包含进目标模版（含有`th:insert`/`th:replace`属性），这些属性会被求值，并且它们可以引用定义在目标模版里的任何上下文变量。
 
