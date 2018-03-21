@@ -4,15 +4,11 @@
 
 - 使用`~{templatename::selector}`包含片段。此片段在名为`templatename`的模版上应用指定的Markup Selector得到。注意：`selector`可以仅仅是一个片段名，所以你可以像上一节里的`~{footer :: copy}`一样，用`~{templatename::fragmentname}`简单地指定片段。
 
-```
 Markup Selector语法由底层的AttoParser解析库定义，与XPath表达式或者CSS选择器相似。详细情况请查看[附录C](../I. Using Thymeleaf/20 Appendix C：Markup Selector Syntax.md)。
-```
 
 - 使用`~{templatename}`包含名为`templatename`的整个模版。
 
-```
 注意：你在`th:insert`/`th:replace`标签里使用的模版名需要能够被模版引擎使用中的模版解析器解析。
-```
 
 - 使用`~{::selector}`或者`"~{this::selector}"`，包含同一个模版里匹配`selector`的片段。如果在此表达式出现的模版上找不到相同的选择器，模版调用（insertion）的栈会朝着最初处理的模版（root）遍历，直到在某一级别上匹配到 `selector`。
 
