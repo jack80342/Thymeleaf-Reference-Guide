@@ -66,3 +66,5 @@
             * [定义和引用片段](I. Using Thymeleaf/Defining and referencing fragments.md)
             * [片段规范语法](I. Using Thymeleaf/Fragment specification syntax.md)
             * [不使用th:fragment引用片段](I. Using Thymeleaf/Referencing fragments without th：fragment.md)
+            * [th:insert与th:replace（与th:include）的区别](I. Using Thymeleaf/Referencing fragments without th：fragment.md)
+
