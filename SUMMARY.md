@@ -68,3 +68,4 @@
             * [不使用th:fragment引用片段](I. Using Thymeleaf/Referencing fragments without th：fragment.md)
             * [th:insert与th:replace（与th:include）的区别](I. Using Thymeleaf/Difference between th：insert and th：replace （and th：include）.md)
         * [8.2 参数化片段签名](I. Using Thymeleaf/8.2 Parameterizable fragment signatures.md)
+            * [不带片段参数的片段本地变量](I. Using Thymeleaf/Fragment local variables without fragment arguments.md)
