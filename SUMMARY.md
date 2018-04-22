@@ -71,3 +71,4 @@
             * [不带片段参数的片段本地变量](I. Using Thymeleaf/Fragment local variables without fragment arguments.md)
             * [th:assert——用于模板内断言](I. Using Thymeleaf/th：assert for in-template assertions.md)
         * [8.3 弹性布局：超越片段插入](I. Using Thymeleaf/8.3 Flexible layouts：beyond mere fragment insertion.md)
+            * [使用空片段](I. Using Thymeleaf/Using the empty fragment.md)
