@@ -16,7 +16,7 @@
 </div>
 ...
 ```
-Additionally, if we have configured our template resolvers to check for existence of the template resources –- by means of their `checkExistence` flag -– we can use the existence of the fragment itself as the condition in a default operation:
+此外，如果我们已经配置好模版解析器检查模版资源是否存在——依据`checkExistence`标记，我们可以把片段自身存在与否用作默认操作的条件：
 ```html
 ...
 <!-- The body of the <div> will be used if the "common :: salutation" fragment  -->
