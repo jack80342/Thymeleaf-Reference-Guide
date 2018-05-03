@@ -1,14 +1,14 @@
 ### 片段的高级条件插入
 
-The availability of both the emtpy fragment and no-operation token allows us to perform conditional insertion of fragments in a very easy and elegant way.
+空片段和无操作标记允许我们以一种非常简单优雅的方式执行片段的条件插入。
 
-For example, we could do this in order to insert our `common :: adminhead` fragment only if the user is an administrator, and insert nothing (emtpy fragment) if not:
+例如，为了只在用户是管理员的时候，才插入我们的`common :: adminhead`片段。不是管理员的时候，不插入（空片段）。我们可以这样写：
 ```html
 ...
 <div th:insert="${user.isAdmin()} ? ~{common :: adminhead} : ~{}">...</div>
 ...
 ```
-Also, we can use the no-operation token in order to insert a fragment only if the specified condition is met, but leave the markup without modifications if the condition is not met:
+另外，为了只在特定条件满足时插入片段，在条件不满足时不修改标记，我们可以使用无操作标记：
 ```html
 ...
 <div th:insert="${user.isAdmin()} ? ~{common :: adminhead} : _">
