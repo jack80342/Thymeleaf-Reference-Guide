@@ -74,3 +74,4 @@
             * [使用空片段](I. Using Thymeleaf/Using the empty fragment.md)
             * [使用无操作标记](I. Using Thymeleaf/Using the no-operation token.md)
             * [片段的高级条件插入](I. Using Thymeleaf/Advanced conditional insertion of fragments.md)
+        * [8.4 移除模版片段](I. Using Thymeleaf/8.4 Removing template fragments.md)
