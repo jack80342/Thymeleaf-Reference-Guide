@@ -1,19 +1,19 @@
 ### 9 本地变量
 
-Thymeleaf calls local variables the variables that are defined for a specific fragment of a template, and are only available for evaluation inside that fragment.
+Thymeleaf把定义在特定的模版片段里，只在那个片段里才有效的变量，称为本地变量。
 
-An example we have already seen is the `prod` iter variable in our product list page:
+我们已经看过一个例子，在产品列表页面的`prod`遍历变量：
 ```html
 <tr th:each="prod : ${prods}">
     ...
 </tr>
 ```
-That `prod` variable will be available only within the bounds of the `<tr>` tag. Specifically:
+那个`prod`变量只在`<tr>`标签里才有效。特别的：
 
-- It will be available for any other `th:*` attributes executing in that tag with less precedence than `th:each` (which means they will execute after `th:each`).
-- It will be available for any child element of the `<tr>` tag, such as any `<td>` elements.
+- 对在那个标签里执行的优先级低于`th:each`（也就是说它们将在`th:each`之后执行）的任何其它的`th:*`属性有效。
+- 对`<tr>`标签的任何子元素有效，比如`<td>`元素。
 
-Thymeleaf offers you a way to declare local variables without iteration, using the `th:with` attribute, and its syntax is like that of attribute value assignments:
+Thymeleaf提供了一种不使用遍历声明本地变量的方法————使用`th:with`属性，它的语法类似于属性值赋值：
 ```html
 <div th:with="firstPer=${persons[0]}">
   <p>
@@ -21,9 +21,9 @@ Thymeleaf offers you a way to declare local variables without iteration, using t
   </p>
 </div>
 ```
-When `th:with` is processed, that `firstPer` variable is created as a local variable and added to the variables map coming from the context, so that it is available for evaluation along with any other variables declared in the context, but only within the bounds of the containing `<div>` tag.
+当`th:with`被处理，`firstPer`变量会被创建为一个本地变量，并加入到上下文的变量映射关系里。这样，它就和其它定义在上下文里的变量一样，能够求值，但只限于包含它的`<div>`标签里面。
 
-You can define several variables at the same time using the usual multiple assignment syntax:
+你可以使用通常的多重赋值语法，同时定义多个变量：
 ```html
 <div th:with="firstPer=${persons[0]},secondPer=${persons[1]}">
   <p>
@@ -35,32 +35,32 @@ You can define several variables at the same time using the usual multiple assig
   </p>
 </div>
 ```
-The `th:with` attribute allows reusing variables defined in the same attribute:
+`th:with`属性允许重用定义在同一个属性里的变量：
 ```html
 <div th:with="company=${user.company + ' Co.'},account=${accounts[company]}">...</div>
 ```
-Let’s use this in our Grocery’s home page! Remember the code we wrote for outputting a formatted date?
+让我们在杂货店的主页上使用一下！还记得我们用来格式化输入日期的代码吗？
 ```html
 <p>
   Today is: 
   <span th:text="${#calendars.format(today,'dd MMMM yyyy')}">13 february 2011</span>
 </p>
 ```
-Well, what if we wanted that `"dd MMMM yyyy"` to actually depend on the locale? For example, we might want to add the following message to our `home_en.properties`:
+如果我们想要`"dd MMMM yyyy"`实际上依赖本地化设置呢？比如，我们可能想要在`home_en.properties`里添加以下信息：
 ```properties
 date.format=MMMM dd'','' yyyy
 ```
-…and an equivalent one to our `home_es.properties`:
+等价于我们的`home_es.properties`：
 ```properties
 date.format=dd ''de'' MMMM'','' yyyy
 ```
-Now, let’s use `th:with` to get the localized date format into a variable, and then use it in our `th:text` expression:
+现在，让我们使用`th:with`把本地化的日期格式放进变量里，然后在我们的`th:text`表达式里使用它：
 ```html
 <p th:with="df=#{date.format}">
   Today is: <span th:text="${#calendars.format(today,df)}">13 February 2011</span>
 </p>
 ```
-That was clean and easy. In fact, given the fact that `th:with` has a higher `precedence` than `th:text`, we could have solved this all in the `span` tag:
+这就干净简单多了。实际上，`th:with`的`优先级`高于`th:text`。我们可以使用`span`标签解决：
 ```html
 <p>
   Today is: 
@@ -68,4 +68,4 @@ That was clean and easy. In fact, given the fact that `th:with` has a higher `pr
         th:text="${#calendars.format(today,df)}">13 February 2011</span>
 </p>
 ```
-You might be thinking: Precedence? We haven’t talked about that yet! Well, don’t worry because that is exactly what the next chapter is about.
+你可能正在想：优先级是上面🤔？我们还没有讨论过它！不过，别担心，下一章讲的就是它。
