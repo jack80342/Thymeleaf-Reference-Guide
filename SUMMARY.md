@@ -78,5 +78,5 @@
     * [9 本地变量](I. Using Thymeleaf/9 Local Variables.md)
     * [10 属性优先级](I. Using Thymeleaf/10 Attribute Precedence.md)
     * 11 评论与块
-        * [11.1. 标准的HTML/XML评论](I. Using Thymeleaf/11.1. Standard HTML/XML comments.md)
+        * [11.1. 标准的HTML/XML评论](I. Using Thymeleaf/11.1. Standard HTML XML comments.md)
         * [11.2. Thymeleaf解析器级别评论块](I. Using Thymeleaf/11.2. Thymeleaf parser-level comment blocks.md)
