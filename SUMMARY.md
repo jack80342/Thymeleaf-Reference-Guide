@@ -80,3 +80,4 @@
     * 11 评论与块
         * [11.1. 标准的HTML/XML评论](I. Using Thymeleaf/11.1. Standard HTML XML comments.md)
         * [11.2. Thymeleaf解析器级别评论块](I. Using Thymeleaf/11.2. Thymeleaf parser-level comment blocks.md)
+        * [11.3. Thymeleaf原型评论块](I. Using Thymeleaf/11.3. Thymeleaf prototype-only comment blocks.md)
