@@ -84,3 +84,4 @@
         * [11.4. 人造th:block标签](I. Using Thymeleaf/11.4. Synthetic th：block tag.md)
     * 12 内联
         * [12.1. 表达式内联](I. Using Thymeleaf/12.1 Expression inlining.md)
+            * [内联对战自然模版](I. Using Thymeleaf/Inlining vs natural templates.md)
