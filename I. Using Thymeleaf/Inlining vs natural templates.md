@@ -1,15 +1,15 @@
 ### 内联对战自然模版
 
-If you come from other template engines in which this way of outputting text is the norm, you might be asking: Why aren’t we doing this from the beginning? It’s less code than all those `th:text` attributes!
+如果你之前学过其它模版引擎，而这种输出文本的方式正是其标准，你可能会问：为什么我们不从一开始就这么做呢？这可比那些`th:text`属性少了不少代码啊🙃亲！
 
-Well, be careful there, because although you might find inlining quite interesting, you should always remember that inlined expressions will be displayed verbatim in your HTML files when you open them statically, so you probably won’t be able to use them as design prototypes anymore!
+好吧，注意⚠️安全。尽管你可能觉得内联挺有意思的，但是你应当记住：当你静态地打开它们时，内联的表达式会一字不差地展示在你的HTML文件里。所以，你可能再也不会在设计原型里使用它们了！
 
-The difference between how a browser would statically display our fragment of code without using inlining…
+不使用内联时，浏览器像这样静态地展示我们的代码片段：
 ```html
 Hello, Sebastian!
 ```
-…and using it…
+使用内联时，则是这样：
 ```html
 Hello, [[${session.user.name}]]!
 ```
-…is quite clear in terms of design usefulness.
+从设计的角度来说，孰优孰劣显而易见。
