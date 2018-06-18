@@ -85,3 +85,5 @@
     * 12 内联
         * [12.1. 表达式内联](I. Using Thymeleaf/12.1 Expression inlining.md)
             * [内联对战自然模版](I. Using Thymeleaf/Inlining vs natural templates.md)
+            * [禁用内联](I. Using Thymeleaf/Disabling inlining.md)
+        * [12.2 文本内联](I. Using Thymeleaf/12.2 Text inlining.md)
