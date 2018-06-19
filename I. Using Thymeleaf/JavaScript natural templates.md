@@ -9,7 +9,7 @@ For example, we can wrap our (escaped) inlined expressions in JavaScript comment
     var username = /*[[${session.user.name}]]*/ "Gertrud Kiwifruit";
     ...
 </script>
-```html
+```
 And Thymeleaf will ignore everything we have written after the comment and before the semicolon (in this case `'Gertrud Kiwifruit'`), so the result of executing this will look exactly like when we were not using the wrapping comments:
 ```html
 <script th:inline="javascript">
