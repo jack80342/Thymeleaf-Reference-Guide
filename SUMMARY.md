@@ -87,3 +87,5 @@
             * [内联对战自然模版](I. Using Thymeleaf/Inlining vs natural templates.md)
             * [禁用内联](I. Using Thymeleaf/Disabling inlining.md)
         * [12.2 文本内联](I. Using Thymeleaf/12.2 Text inlining.md)
+        * [12.3 JavaScript内联](I. Using Thymeleaf/12.3 JavaScript inlining.md)
+            * [JavaScript自然模版](I. Using Thymeleaf/JavaScript natural templates.md)
