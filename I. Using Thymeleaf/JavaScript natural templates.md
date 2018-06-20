@@ -1,8 +1,8 @@
 ### JavaScript自然模版
 
-The mentioned intelligence of the JavaScript inlining mechanism goes much further than just applying JavaScript-specific escaping and outputting expression results as valid literals.
+之前提及的 JavaScript内联机制的智能，远不止应用JavaScript特定的转义和以有效的字面量输出表达式结果。
 
-For example, we can wrap our (escaped) inlined expressions in JavaScript comments like:
+比如，我们可以在JavaScript注释里包装我们的（转义的）内联表达式：
 ```html
 <script th:inline="javascript">
     ...
@@ -10,7 +10,7 @@ For example, we can wrap our (escaped) inlined expressions in JavaScript comment
     ...
 </script>
 ```
-And Thymeleaf will ignore everything we have written after the comment and before the semicolon (in this case `'Gertrud Kiwifruit'`), so the result of executing this will look exactly like when we were not using the wrapping comments:
+Thymeleaf会忽略所有写在注释后面分号前面的东西（这里是`'Gertrud Kiwifruit'`），所以执行的结果会和没有使用包装的注释的情况一样：
 ```html
 <script th:inline="javascript">
     ...
@@ -18,7 +18,7 @@ And Thymeleaf will ignore everything we have written after the comment and befor
     ...
 </script>
 ```
-But have another careful look at the original template code:
+但是，再仔细看一下原始的模版代码：
 ```html
 <script th:inline="javascript">
     ...
@@ -26,6 +26,6 @@ But have another careful look at the original template code:
     ...
 </script>
 ```
-Note how this is `valid JavaScript` code. And it will perfectly execute when you open your template file in a static manner (without executing it at a server).
+注意：这是`有效的JavaScript`代码。当你静态地打开你的模版文件（不在服务器上执行）时，它也将完美的执行。
 
-So what we have here is a way to do `JavaScript natural templates`!
+所以，这儿讲的就是一种实现`JavaScript自然模版`的方式！
