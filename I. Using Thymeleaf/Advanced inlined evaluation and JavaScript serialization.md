@@ -1,6 +1,6 @@
 ### 高级内联求值与JavaScript序列化
 
-关于JavaScript内联有一件重要的事情需要提醒一下：它的表达式求值是智能的，不限于Strings。Thymeleaf会用JavaScript语法正确地书写下列类别地对象：
+关于JavaScript内联有一件重要的事情需要提醒一下：它的表达式求值是智能的，不限于Strings。Thymeleaf会用JavaScript语法正确地书写下列类别的对象：
 
 - Strings
 - Numbers
