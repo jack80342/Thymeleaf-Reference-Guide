@@ -27,6 +27,6 @@
     ...
 </script>
 ```
-The way this JavaScript serialization is done is by means of an implementation of the `org.thymeleaf.standard.serializer.IStandardJavaScriptSerializer` interface, which can be configured at the instance of the `StandardDialect` being used at the template engine.
+这种JavaScript序列化通过`org.thymeleaf.standard.serializer.IStandardJavaScriptSerializer`接口实现。它可以在模版引擎使用的`StandardDialect`实例里配置。
 
-The default implementation of this JS serialization mechanism will look for the [Jackson library](https://github.com/FasterXML/jackson) in the classpath and, if present, will use it. If not, it will apply a built-in serialization mechanism that covers the needs of most scenarios and produces similar results (but is less flexible).
+这个JS序列化机制的默认实现将会在类路径里寻找[Jackson library](https://github.com/FasterXML/jackson)。如果存在，就使用它。否则，它将会应用内建的序列化机制，来满足大部分场景下的需求，并产生相似的结果（但更不灵活）。
