@@ -89,5 +89,5 @@
         * [12.2 文本内联](I. Using Thymeleaf/12.2 Text inlining.md)
         * [12.3 JavaScript内联](I. Using Thymeleaf/12.3 JavaScript inlining.md)
             * [JavaScript自然模版](I. Using Thymeleaf/JavaScript natural templates.md)
-            * [高级内联表达式与JavaScript序列化](I. Using Thymeleaf/Advanced inlined evaluation and JavaScript serialization.md)
+            * [高级内联求值与JavaScript序列化](I. Using Thymeleaf/Advanced inlined evaluation and JavaScript serialization.md)
         * [12.4 CSS内联](I. Using Thymeleaf/12.4 CSS inlining.md)
