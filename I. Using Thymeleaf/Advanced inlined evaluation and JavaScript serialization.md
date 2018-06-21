@@ -1,6 +1,6 @@
-### 高级内联表达式与JavaScript序列化
+### 高级内联求值与JavaScript序列化
 
-An important thing to note regarding JavaScript inlining is that this expression evaluation is intelligent and not limited to Strings. Thymeleaf will correctly write in JavaScript syntax the following kinds of objects:
+关于JavaScript内联有一件重要的事情需要提醒一下：它的表达式求值是智能的，不限于Strings。Thymeleaf会用JavaScript语法正确地书写下列类别地对象：
 
 - Strings
 - Numbers
@@ -10,7 +10,7 @@ An important thing to note regarding JavaScript inlining is that this expression
 - Maps
 - Beans (objects with getter and setter methods)
 
-For example, if we had the following code:
+比如，如果我们有下列代码：
 ```html
 <script th:inline="javascript">
     ...
@@ -18,7 +18,7 @@ For example, if we had the following code:
     ...
 </script>
 ```
-That `${session.user}` expression will evaluate to a `User` object, and Thymeleaf will correctly convert it to Javascript syntax:
+`${session.user}`表达式会求值为`User`对象，并且Thymeleaf将会把它正确地转化为Javascript语法：
 ```html
 <script th:inline="javascript">
     ...
