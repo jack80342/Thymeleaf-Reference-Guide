@@ -91,3 +91,6 @@
             * [JavaScript自然模版](I. Using Thymeleaf/JavaScript natural templates.md)
             * [高级内联求值与JavaScript序列化](I. Using Thymeleaf/Advanced inlined evaluation and JavaScript serialization.md)
         * [12.4 CSS内联](I. Using Thymeleaf/12.4 CSS inlining.md)
+            * [高级特性：CSS自然模版等](I. Using Thymeleaf/Advanced features：CSS natural templates, etc.md)
+    * 13 文本模版模式
+        * [13.1 文本语法](I. Using Thymeleaf/13.1 Textual syntax.md)
