@@ -1,6 +1,6 @@
 ### 高级特性：CSS自然模版等
 
-In an equivalent way to what was explained before for JavaScript, CSS inlining also allows for our `<style>` tags to work both statically and dynamically, i.e. as `CSS natural templates` by means of wrapping inlined expressions in comments. See:
+与之前介绍的JavaScript内联实现自然模版的方式相同，CSS内联也允许我们的`<style>标签`静态或者动态地工作。也就是说，通过在注释里包装内联表达式实现`CSS自然模版`。请看：
 ```html
 <style th:inline="css">
     .main\ elems {
