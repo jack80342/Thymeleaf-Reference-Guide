@@ -94,4 +94,5 @@
             * [高级特性：CSS自然模版等](I. Using Thymeleaf/Advanced features：CSS natural templates, etc.md)
     * 13 文本模版模式
         * [13.1 文本语法](I. Using Thymeleaf/13.1 Textual syntax.md)
-            * [转义的元素属性](I. Using Thymeleaf/Escaped element attributesmd)
+            * [转义的元素属性](I. Using Thymeleaf/Escaped element attributes.md)
+        * [13.2 扩展性](I. Using Thymeleaf/13.2 Extensibility.md)
