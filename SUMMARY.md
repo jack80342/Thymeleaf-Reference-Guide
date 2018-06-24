@@ -96,3 +96,4 @@
         * [13.1 文本语法](I. Using Thymeleaf/13.1 Textual syntax.md)
             * [转义的元素属性](I. Using Thymeleaf/Escaped element attributes.md)
         * [13.2 扩展性](I. Using Thymeleaf/13.2 Extensibility.md)
+        * [13.3 文本原型评论块：添加代码](I. Using Thymeleaf/13.3 Textual prototype-only comment blocks： adding code.md)
