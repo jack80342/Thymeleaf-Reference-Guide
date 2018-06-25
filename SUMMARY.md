@@ -97,3 +97,5 @@
             * [转义的元素属性](I. Using Thymeleaf/Escaped element attributes.md)
         * [13.2 扩展性](I. Using Thymeleaf/13.2 Extensibility.md)
         * [13.3 文本原型注释块：添加代码](I. Using Thymeleaf/13.3 Textual prototype-only comment blocks： adding code.md)
+        * [13.4 文本解析器级别注释块：移除代码](I. Using Thymeleaf/13.4 Textual parser-level comment blocks：removing code.md)
+        * [13.5 自然JavaScript和CSS模版](I. Using Thymeleaf/13.5 Natural JavaScript and CSS templates.md)
