@@ -77,10 +77,10 @@
         * [8.4 移除模版片段](I. Using Thymeleaf/8.4 Removing template fragments.md)
     * [9 本地变量](I. Using Thymeleaf/9 Local Variables.md)
     * [10 属性优先级](I. Using Thymeleaf/10 Attribute Precedence.md)
-    * 11 评论与块
-        * [11.1. 标准的HTML/XML评论](I. Using Thymeleaf/11.1. Standard HTML XML comments.md)
-        * [11.2. Thymeleaf解析器级别评论块](I. Using Thymeleaf/11.2. Thymeleaf parser-level comment blocks.md)
-        * [11.3. Thymeleaf原型评论块](I. Using Thymeleaf/11.3. Thymeleaf prototype-only comment blocks.md)
+    * 11 注释与块
+        * [11.1. 标准的HTML/XML注释](I. Using Thymeleaf/11.1. Standard HTML XML comments.md)
+        * [11.2. Thymeleaf解析器级别注释块](I. Using Thymeleaf/11.2. Thymeleaf parser-level comment blocks.md)
+        * [11.3. Thymeleaf原型注释块](I. Using Thymeleaf/11.3. Thymeleaf prototype-only comment blocks.md)
         * [11.4. 人造th:block标签](I. Using Thymeleaf/11.4. Synthetic th：block tag.md)
     * 12 内联
         * [12.1. 表达式内联](I. Using Thymeleaf/12.1 Expression inlining.md)
@@ -96,4 +96,4 @@
         * [13.1 文本语法](I. Using Thymeleaf/13.1 Textual syntax.md)
             * [转义的元素属性](I. Using Thymeleaf/Escaped element attributes.md)
         * [13.2 扩展性](I. Using Thymeleaf/13.2 Extensibility.md)
-        * [13.3 文本原型评论块：添加代码](I. Using Thymeleaf/13.3 Textual prototype-only comment blocks： adding code.md)
+        * [13.3 文本原型注释块：添加代码](I. Using Thymeleaf/13.3 Textual prototype-only comment blocks： adding code.md)
