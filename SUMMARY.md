@@ -101,3 +101,6 @@
         * [13.5 自然JavaScript和CSS模版](I. Using Thymeleaf/13.5 Natural JavaScript and CSS templates.md)
     * [14 给我们的杂货店添加更多页面](I. Using Thymeleaf/14 Some more pages for our grocery.md)
         * [14.1 订单列表](I. Using Thymeleaf/14.1 Order List.md)
+        * [14.2 订单详情](I. Using Thymeleaf/14.2 Order Details.md)
+    * 15 更多配置
+        * [15.1 模板解析器](I. Using Thymeleaf/15.1 Template Resolvers.md)
