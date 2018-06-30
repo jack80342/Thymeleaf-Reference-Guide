@@ -1,6 +1,6 @@
 ### 链接模板解析器
 
-Also, a Template Engine can specify several template resolvers, in which case an order can be established between them for template resolution so that, if the first one is not able to resolve the template, the second one is asked, and so on:
+模板引擎可以指定多个模板解析器。这种情况下，可以指定解析的先后顺序。这样，如果第一个解析器无法解析模板，就会去请求第二个：
 ```java
 ClassLoaderTemplateResolver classLoaderTemplateResolver = new ClassLoaderTemplateResolver();
 classLoaderTemplateResolver.setOrder(Integer.valueOf(1));
@@ -12,7 +12,7 @@ servletContextTemplateResolver.setOrder(Integer.valueOf(2));
 templateEngine.addTemplateResolver(classLoaderTemplateResolver);
 templateEngine.addTemplateResolver(servletContextTemplateResolver);
 ```
-When several template resolvers are applied, it is recommended to specify patterns for each template resolver so that Thymeleaf can quickly discard those template resolvers that are not meant to resolve the template, enhancing performance. Doing this is not a requirement, but a recommendation:
+当应用了多个模板解析器时，推荐为每个模板解析器指定模式。这样，Thymeleaf能够快速取消那些无法解析模板的模板解析器，增强性能。这并不是强制性的，但推荐这样做。
 ```java
 ClassLoaderTemplateResolver classLoaderTemplateResolver = new ClassLoaderTemplateResolver();
 classLoaderTemplateResolver.setOrder(Integer.valueOf(1));
