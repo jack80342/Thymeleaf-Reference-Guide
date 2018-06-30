@@ -26,7 +26,7 @@ servletContextTemplateResolver.setOrder(Integer.valueOf(2));
 ```
 如果没有指定这些可解析的模式，我们将依赖每一个正在使用的`ITemplateResolver`实现的特定能力。注意：不是所有的实现能够在解析前知道某个模板是否存在。因此，可以总是认为一个模板是可解析的，并截断解析链（不允许其它解析器检查同一个模板）。但是，之后无法读取真实的资源。
 
-核心Thymeleaf包含的所有`ITemplateResolver`实现包含了一种机制。它允许我们让解析器在认为模板可解析之前检查资源是否存在。It is the `checkExistence` flag, which works like:
+核心Thymeleaf包含的所有`ITemplateResolver`实现包含了一种机制。它允许我们让解析器在认为模板可解析之前检查资源是否存在。也就是`checkExistence`标志，比如：
 ```java
 ClassLoaderTemplateResolver classLoaderTemplateResolver = new ClassLoaderTemplateResolver();
 classLoaderTemplateResolver.setOrder(Integer.valueOf(1));
