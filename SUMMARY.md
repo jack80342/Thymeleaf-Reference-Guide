@@ -104,3 +104,4 @@
         * [14.2 订单详情](I. Using Thymeleaf/14.2 Order Details.md)
     * 15 更多配置
         * [15.1 模板解析器](I. Using Thymeleaf/15.1 Template Resolvers.md)
+            * [链接模板解析器](I. Using Thymeleaf/Chaining Template Resolvers.md)
