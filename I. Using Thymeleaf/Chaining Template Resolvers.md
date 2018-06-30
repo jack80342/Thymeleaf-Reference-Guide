@@ -24,9 +24,9 @@ ServletContextTemplateResolver servletContextTemplateResolver =
         new ServletContextTemplateResolver(servletContext);
 servletContextTemplateResolver.setOrder(Integer.valueOf(2));
 ```
-If these resolvable patterns are not specified, we will be relying on the specific capabilities of each of the `ITemplateResolver` implementations we are using. Note that not all implementations might be able to determine the existence of a template before resolving, and thus could always consider a template as resolvable and break the resolution chain (not allowing other resolvers to check for the same template), but then be unable to read the real resource.
+如果没有指定这些可解析的模式，我们将依赖每一个正在使用的`ITemplateResolver`实现的特定能力。注意：不是所有的实现能够在解析前知道某个模板是否存在。因此，可以总是认为一个模板是可解析的，并截断解析链（不允许其它解析器检查同一个模板）。但是，之后无法读取真实的资源。
 
-All the `ITemplateResolver` implementations that are included with core Thymeleaf include a mechanism that will allow us to make the resolvers really check if a resource exists before considering it resolvable. It is the `checkExistence` flag, which works like:
+核心Thymeleaf包含的所有`ITemplateResolver`实现包含了一种机制。它允许我们让解析器在认为模板可解析之前检查资源是否存在。It is the `checkExistence` flag, which works like:
 ```java
 ClassLoaderTemplateResolver classLoaderTemplateResolver = new ClassLoaderTemplateResolver();
 classLoaderTemplateResolver.setOrder(Integer.valueOf(1));
