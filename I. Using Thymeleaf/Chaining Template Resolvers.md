@@ -24,7 +24,7 @@ ServletContextTemplateResolver servletContextTemplateResolver =
         new ServletContextTemplateResolver(servletContext);
 servletContextTemplateResolver.setOrder(Integer.valueOf(2));
 ```
-如果没有指定这些可解析的模式，我们将依赖每一个正在使用的`ITemplateResolver`实现的特定能力。注意：不是所有的实现能够在解析前知道某个模板是否存在。因此，可以总是认为一个模板是可解析的，并截断解析链（不允许其它解析器检查同一个模板）。但是，之后无法读取真实的资源。
+如果没有指定这些可解析的模式，我们将依赖每一个正在使用的`ITemplateResolver`实现的特定能力。注意：不是所有的实现都能够在解析前知道某个模板是否存在。因此，可以总是认为一个模板是可解析的，并截断解析链（不允许其它解析器检查同一个模板）。但是，之后无法读取真实的资源。
 
 核心Thymeleaf包含的所有`ITemplateResolver`实现包含了一种机制。它允许我们让解析器在认为模板可解析之前检查资源是否存在。也就是`checkExistence`标志，比如：
 ```java
@@ -32,4 +32,4 @@ ClassLoaderTemplateResolver classLoaderTemplateResolver = new ClassLoaderTemplat
 classLoaderTemplateResolver.setOrder(Integer.valueOf(1));
 classLoaderTempalteResolver.setCheckExistence(true);
 ```
-This `checkExistence` flag forces the resolver perform a real check for resource existence during the resolution phase (and let the following resolver in the chain be called if existence check returns false). While this might sound good in every case, in most cases this will mean a double access to the resource itself (once for checking existence, another time for reading it), and could be a performance issue in some scenarios, e.g. remote URL-based template resources – a potential performance issue that might anyway get largely mitigated by the use of the template cache (in which case templates will only be resolved the first time they are accessed).
+这个`checkExistence`标志强制解析器检查在解析阶段资源是否存在（如果返回false，则会调用链里的下一个解析器）。在每一种情况下，这可能听起来感觉不错。在大多数情况下，这意味着会访问资源两次（一次检查是否存在，另一次读取它）。在某些场景下，这会是一个性能问题，比如：基于远程URL的模板资源————这个潜在的问题可以通过使用模板缓存极大地缓解（这种情况下，模板只会在第一次访问的时候被解析）。
