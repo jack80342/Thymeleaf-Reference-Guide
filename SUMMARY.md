@@ -105,3 +105,4 @@
     * 15 更多配置
         * [15.1 模板解析器](I. Using Thymeleaf/15.1 Template Resolvers.md)
             * [链接模板解析器](I. Using Thymeleaf/Chaining Template Resolvers.md)
+        * [15.2 信息解析器](I. Using Thymeleaf/15.2 Message Resolvers.md)
