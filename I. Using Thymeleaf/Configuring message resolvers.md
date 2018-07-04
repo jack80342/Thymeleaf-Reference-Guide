@@ -1,6 +1,6 @@
 ### 配置信息解析器
 
-What if we wanted to add a message resolver (or more) to the Template Engine? Easy:
+如果我们想往模板引擎里添加一个或者多个模板解析器，该怎么做呢？简单。
 ```java
 // For setting only one
 templateEngine.setMessageResolver(messageResolver);
@@ -8,4 +8,4 @@ templateEngine.setMessageResolver(messageResolver);
 // For setting more than one
 templateEngine.addMessageResolver(messageResolver);
 ```
-And why would we want to have more than one message resolver? For the same reason as template resolvers: message resolvers are ordered and if the first one cannot resolve a specific message, the second one will be asked, then the third, etc.
+我们为什么想要有多个信息解析器呢？和模板解析器的原因相同：信息解析器有先后顺序。如果第一个信息解析器无法解析一条特定的信息，就会请求第二个，然后再是第三个······
