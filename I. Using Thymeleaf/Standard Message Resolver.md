@@ -8,4 +8,4 @@
 - `/WEB-INF/templates/home_gl.properties`
 - `/WEB-INF/templates/home.properties`
 
-Refer to the JavaDoc documentation of the `StandardMessageResolver` class for more detail on how the complete message resolution mechanism works.
+完整的信息解析机制，请参考`StandardMessageResolver`类的JavaDoc文档。
