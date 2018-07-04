@@ -107,3 +107,4 @@
             * [链接模板解析器](I. Using Thymeleaf/Chaining Template Resolvers.md)
         * [15.2 信息解析器](I. Using Thymeleaf/15.2 Message Resolvers.md)
             * [标准信息解析器](I. Using Thymeleaf/Standard Message Resolver.md)
+            * [配置信息解析器](I. Using Thymeleaf/Configuring message resolvers.md)
