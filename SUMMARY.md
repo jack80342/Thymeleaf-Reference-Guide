@@ -110,3 +110,4 @@
             * [配置信息解析器](I. Using Thymeleaf/Configuring message resolvers.md)
         * [15.3 转换服务](I. Using Thymeleaf/15.3 Conversion Services.md)
         * [15.4 日志记录](I. Using Thymeleaf/15.4 Logging.md)
+    * [16 模版缓存](I. Using Thymeleaf/16 Template Cache.md)
