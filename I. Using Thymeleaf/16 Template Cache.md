@@ -1,6 +1,6 @@
 ### 16 模版缓存
 
-Thymeleaf works thanks to a set of parsers – for markup and text – that parse templates into sequences of events (open tag, text, close tag, comment, etc.) and a series of processors – one for each type of behaviour that needs to be applied – that modify the template parsed event sequence in order to create the results we expect by combining the original template with our data.
+多亏了一系列的解析器和处理器，Thymeleaf才能够正常工作。解析器用于标记和文本。它将模板解析为事件序列（开始标签、文本、结束标签、注释，等等）。处理器用于每一种需要被应用的行为类型。它修改事件序列，通过合并原始模板与我们的数据，创建期待的结果。
 
 It also includes – by default – a cache that stores parsed templates; the sequence of events resulting from reading and parsing template files before processing them. This is especially useful when working in a web application, and builds on the following concepts:
 
