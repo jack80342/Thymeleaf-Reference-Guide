@@ -2,12 +2,12 @@
 
 多亏了一系列的解析器和处理器，Thymeleaf才能够正常工作。解析器用于标记和文本。它将模板解析为事件序列（开始标签、文本、结束标签、注释，等等）。处理器用于每一种需要被应用的行为类型。它修改事件序列，通过合并原始模板与我们的数据，创建期待的结果。
 
-It also includes – by default – a cache that stores parsed templates; the sequence of events resulting from reading and parsing template files before processing them. This is especially useful when working in a web application, and builds on the following concepts:
+它默认包含缓存。缓存里存储了解析过的模板，以及在处理它们前由于读取和解析模板文件产生的事件序列。当在一个网络应用里工作时，这特别有用。它基于以下观念构建：
 
-- Input/Output is almost always the slowest part of any application. In-memory processing is extremely quick by comparison.
-- Cloning an existing in-memory event sequence is always much quicker than reading a template file, parsing it and creating a new event sequence for it.
-- Web applications usually have only a few dozen templates.
-- Template files are small-to-medium size, and they are not modified while the application is running.
+- 在任何应用里，输入/输出几乎总是最慢的部分。相较而言，内存里的处理则极其快。
+- 克隆一个存在的内存里的事件序列，比读取模板文件、解析它并创建一个新时间序列，要快得多。
+- 网络应用通常模板不多。
+- 模板文件不大，并且不会在应用运行时被修改。
 
 This all leads to the idea that caching the most used templates in a web application is feasible without wasting large amounts of memory, and also that it will save a lot of time that would be spent on input/output operations on a small set of files that, in fact, never change.
 
