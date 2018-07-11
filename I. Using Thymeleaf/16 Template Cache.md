@@ -17,7 +17,7 @@
 templateResolver.setCacheable(false);
 templateResolver.getCacheablePatternSpec().addPattern("/users/*");
 ```
-而且，我们可以通过建立自己的Cache Manager对象，修改它的配置。Cache Manager对象which could be an instance of the default `StandardCacheManager` implementation:
+而且，我们可以通过建立自己的Cache Manager对象，修改它的配置。Cache Manager对象是默认的`StandardCacheManager`实现的一个实例：
 ```java
 // Default is 200
 StandardCacheManager cacheManager = new StandardCacheManager();
@@ -25,9 +25,9 @@ cacheManager.setTemplateCacheMaxSize(100);
 ...
 templateEngine.setCacheManager(cacheManager);
 ```
-Refer to the javadoc API of `org.thymeleaf.cache.StandardCacheManager` for more info on configuring the caches.
+参考`org.thymeleaf.cache.StandardCacheManager`的javadoc API，获取更多有关配置缓存的信息。
 
-Entries can be manually removed from the template cache:
+可以从模板缓存里手动去除入口：
 ```java
 // Clear the cache completely
 templateEngine.clearTemplateCache();
