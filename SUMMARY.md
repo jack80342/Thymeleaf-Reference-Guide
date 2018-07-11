@@ -111,3 +111,5 @@
         * [15.3 转换服务](I. Using Thymeleaf/15.3 Conversion Services.md)
         * [15.4 日志记录](I. Using Thymeleaf/15.4 Logging.md)
     * [16 模版缓存](I. Using Thymeleaf/16 Template Cache.md)
+    * [17 解耦的模版逻辑](I. Using Thymeleaf/17 Decoupled Template Logic.md)
+        * [17.1 解耦的逻辑：概念](I. Using Thymeleaf/17.1 Decoupled logic: The concept.md)
