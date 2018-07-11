@@ -9,7 +9,7 @@
 - 网络应用通常模板不多。
 - 模板文件不大，并且不会在应用运行时被修改。
 
-This all leads to the idea that caching the most used templates in a web application is feasible without wasting large amounts of memory, and also that it will save a lot of time that would be spent on input/output operations on a small set of files that, in fact, never change.
+这说明：在网络应用里缓存最常用的模版是可行的，而且不会浪费大量的内存。同时，也节约了在一小部分实际上从不改变的文件上执行输入/输出操作花费的时间。
 
 And how can we take control of this cache? First, we’ve learned before that we can enable or disable it at the Template Resolver, even acting only on specific templates:
 ```java
