@@ -11,13 +11,13 @@
 
 这说明：在网络应用里缓存最常用的模版是可行的，而且不会浪费大量的内存。同时，也节约了在一小部分实际上从不改变的文件上执行输入/输出操作花费的时间。
 
-And how can we take control of this cache? First, we’ve learned before that we can enable or disable it at the Template Resolver, even acting only on specific templates:
+那么，我们怎么控制这缓存呢？首先，我们之前学过，可以在Template Resolver启用或者禁用它，甚至可以只针对特定的模版：
 ```java
 // Default is true
 templateResolver.setCacheable(false);
 templateResolver.getCacheablePatternSpec().addPattern("/users/*");
 ```
-Also, we could modify its configuration by establishing our own Cache Manager object, which could be an instance of the default `StandardCacheManager` implementation:
+而且，我们可以通过建立自己的Cache Manager对象，修改它的配置。Cache Manager对象which could be an instance of the default `StandardCacheManager` implementation:
 ```java
 // Default is 200
 StandardCacheManager cacheManager = new StandardCacheManager();
