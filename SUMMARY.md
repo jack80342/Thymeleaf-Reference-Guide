@@ -113,3 +113,5 @@
     * [16 模版缓存](I. Using Thymeleaf/16 Template Cache.md)
     * [17 解耦的模版逻辑](I. Using Thymeleaf/17 Decoupled Template Logic.md)
         * [17.1 解耦的逻辑：概念](I. Using Thymeleaf/17.1 Decoupled logic: The concept.md)
+        * 17.2 配置解耦的模版
+            * [启用解耦的模版](I. Using Thymeleaf/Enabling decoupled templates.md)
