@@ -1,8 +1,8 @@
 ### 启用解耦的模版
 
-Decoupled logic will not be expected for every template by default. Instead, the configured template resolvers (implementations of `ITemplateResolver`) will need to specifically mark the templates they resolve as using decoupled logic.
+默认的，并不是每一个模板都需要解耦的逻辑。配置好的模板解析器（`ITemplateResolver`的实现）需要明确地标记出使用解耦的逻辑的模板。
 
-Except for `StringTemplateResolver` (which does not allow decoupled logic), all other out-of-the-box implementations of `ITemplateResolver` will provide a flag called `useDecoupledLogic` that will mark all templates resolved by that resolver as potentially having all or part of its logic living in a separate resource:
+除了`StringTemplateResolver`（它不允许解耦的逻辑），所有其它的`ITemplateResolver`的开箱即用的实现提供了一个叫做`useDecoupledLogic`的标记。 that will mark all templates resolved by that resolver as potentially having all or part of its logic living in a separate resource:
 ```java
 final ServletContextTemplateResolver templateResolver = 
         new ServletContextTemplateResolver(servletContext);
