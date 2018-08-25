@@ -115,3 +115,4 @@
         * [17.1 解耦的逻辑：概念](I. Using Thymeleaf/17.1 Decoupled logic: The concept.md)
         * 17.2 配置解耦的模版
             * [启用解耦的模版](I. Using Thymeleaf/Enabling decoupled templates.md)
+            * [混合耦合的与解耦的逻辑](I. Using Thymeleaf/Mixing coupled and decoupled logic.md)
