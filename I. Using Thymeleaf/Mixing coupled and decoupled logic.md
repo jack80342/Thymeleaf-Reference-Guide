@@ -1,5 +1,5 @@
 ### 混合耦合的与解耦的逻辑
 
-即使启用，解耦的模板逻辑也不是必须的。 When enabled, it means that the engine will look for a resource containing decoupled logic, parsing and merging it with the original template if it exists. No error will be thrown if the decoupled logic resource does not exist.
+即使启用，解耦的模板逻辑也不是必须的。启用时，引擎会寻找包含解耦的逻辑的资源。如果它存在，就会解析它，并把它和原始的模板合并。如果解耦的逻辑资源不存在，不会抛出错误。
 
-Also, in the same template we can mix both coupled and decoupled logic, for example by adding some Thymeleaf attributes at the original template file but leaving others for the separate decoupled logic file. The most common case for this is using the new (in v3.0) `th:ref` attribute.
+并且，在同一个模板里，我们可以混合耦合的与解耦的逻辑。比如，将一些Thymeleaf属性添加到原始的模板文件，而把另一些留在独立的解耦的逻辑文件里。最通常的情况是使用新的（v3.0）`th:ref`属性。
