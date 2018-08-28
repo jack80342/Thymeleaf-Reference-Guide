@@ -117,3 +117,4 @@
             * [启用解耦的模版](I. Using Thymeleaf/Enabling decoupled templates.md)
             * [混合耦合的与解耦的逻辑](I. Using Thymeleaf/Mixing coupled and decoupled logic.md)
         * [17.3 th:ref属性](I. Using Thymeleaf/17.3 The th:ref attribute.md)
+        * [17.4 解耦的模板对性能的影响Performance impact of decoupled templates](I. Using Thymeleaf/17.4 Performance impact of decoupled templates.md)
