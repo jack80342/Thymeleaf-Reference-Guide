@@ -118,3 +118,4 @@
             * [混合耦合的与解耦的逻辑](I. Using Thymeleaf/Mixing coupled and decoupled logic.md)
         * [17.3 th:ref属性](I. Using Thymeleaf/17.3 The th:ref attribute.md)
         * [17.4 解耦的模板对性能的影响](I. Using Thymeleaf/17.4 Performance impact of decoupled templates.md)
+        * [17.5 解耦的逻辑的解析](I. Using Thymeleaf/17.5 Resolution of decoupled logic.md)
