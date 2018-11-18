@@ -26,6 +26,7 @@ ${#ctx.session}
 ${#ctx.servletContext}
 ```
 - **#locale** : 直接访问当前请求关联的`java.util.Locale`。
+
 ```
 ${#locale}
 ```
