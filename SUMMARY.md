@@ -121,4 +121,5 @@
         * [17.5 解耦的逻辑的解析](I. Using Thymeleaf/17.5 Resolution of decoupled logic.md)
     * [18 附录A：表达基本对象](I. Using Thymeleaf/18 Appendix A：Expression Basic Objects.md)
         * [基本对象](I. Using Thymeleaf/Base objects.md)
-        * [请求/会话属性的网络上下文命名空间等](I. Using Thymeleaf/Web context namespaces for request/session attributes, etc.md)
+        * [请求/会话属性的网络上下文命名空间等](I. Using Thymeleaf/Web context namespaces for request/session attributes，etc.md)
+
