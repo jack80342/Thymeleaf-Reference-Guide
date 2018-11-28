@@ -4,7 +4,7 @@
 
 注意：`#vars`和`#root`是它的同义词，但是推荐使用`#ctx`。
 
-```
+```java
 /*
  * ======================================================================
  * See javadoc API for class org.thymeleaf.context.IContext
@@ -26,6 +26,6 @@ ${#ctx.session}
 ${#ctx.servletContext}
 ```
 - **#locale** : 直接访问当前请求关联的`java.util.Locale`。
-```
+```java
 ${#locale}
 ```
