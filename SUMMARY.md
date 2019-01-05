@@ -123,5 +123,5 @@
         * [基本对象](I. Using Thymeleaf/Base objects.md)
         * [请求或会话属性的网络上下文命名空间等](I. Using Thymeleaf/Web context namespaces for request session attributes，etc.md)
         * [网络上下文对象](I. Using Thymeleaf/Web context objects.md)
-    * [19 附录B：表达实用对象]
+    * 19 附录B：表达实用对象
         * [执行信息](I. Using Thymeleaf/Execution Info.md)
