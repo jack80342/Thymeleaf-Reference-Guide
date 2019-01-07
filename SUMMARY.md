@@ -125,3 +125,4 @@
         * [网络上下文对象](I. Using Thymeleaf/Web context objects.md)
     * 19 附录B：表达实用对象
         * [执行信息](I. Using Thymeleaf/Execution Info.md)
+        * [信息](I. Using Thymeleaf/Messages.md)
