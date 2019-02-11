@@ -1,6 +1,6 @@
 ### 日期
 
-- **#dates**: 用于`java.util.Date`对象的实用对象。
+- **#dates**: 用于`java.util.Date`对象的实用方法。
 
 ```java
 /*
