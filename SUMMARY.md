@@ -130,3 +130,4 @@
         * [转换](I. Using Thymeleaf/Conversions.md)
         * [日期](I. Using Thymeleaf/Dates.md)
         * [日历](I. Using Thymeleaf/Calendars.md)
+        * [数字](I. Using Thymeleaf/Numbers.md)
