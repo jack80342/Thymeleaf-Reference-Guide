@@ -131,3 +131,4 @@
         * [日期](I. Using Thymeleaf/Dates.md)
         * [日历](I. Using Thymeleaf/Calendars.md)
         * [数字](I. Using Thymeleaf/Numbers.md)
+        * [字符串](I. Using Thymeleaf/Strings.md)
