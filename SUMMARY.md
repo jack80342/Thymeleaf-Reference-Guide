@@ -133,3 +133,4 @@
         * [数字](I. Using Thymeleaf/Numbers.md)
         * [字符串](I. Using Thymeleaf/Strings.md)
         * [对象](I. Using Thymeleaf/Objects.md)
+        * [布尔值](I. Using Thymeleaf/Booleans.md)
