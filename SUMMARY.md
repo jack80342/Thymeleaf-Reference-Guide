@@ -138,3 +138,4 @@
         * [列表](I. Using Thymeleaf/Lists.md)
         * [集合](I. Using Thymeleaf/Sets.md)
         * [映射](I. Using Thymeleaf/Maps.md)
+        * [合计](I. Using Thymeleaf/Aggregates.md)
