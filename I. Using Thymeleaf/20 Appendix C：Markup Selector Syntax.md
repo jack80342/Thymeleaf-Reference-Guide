@@ -2,7 +2,7 @@
 
 Thymeleaf的标记选择器直接借自Thymeleaf的句法分析库：[AttoParser](http://attoparser.org/)。
 
-The syntax for this selectors has large similarities with that of selectors in XPath, CSS and jQuery, which makes them easy to use for most users. You can have a look at the complete syntax reference at the [AttoParser documentation](http://www.attoparser.org/apidocs/attoparser/2.0.4.RELEASE/org/attoparser/select/package-summary.html).
+这些选择器的语法与XPath、CSS、jQuery里的选择器的语法很是相似。这使它们对大多数用户来说，容易上手。你可以在[AttoParser文档](http://www.attoparser.org/apidocs/attoparser/2.0.4.RELEASE/org/attoparser/select/package-summary.html)上看看完整的语法。
 
 For example, the following selector will select every `<div>` with the class `content`, in every position inside the markup (note this is not as concise as it could be, read on to know why):
 
