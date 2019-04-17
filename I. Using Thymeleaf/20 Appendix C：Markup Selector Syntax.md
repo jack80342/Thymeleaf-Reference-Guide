@@ -4,31 +4,31 @@ Thymeleaf的标记选择器直接借自Thymeleaf的句法分析库：[AttoParser
 
 这些选择器的语法与XPath、CSS、jQuery里的选择器的语法很是相似。这使它们对大多数用户来说，容易上手。你可以在[AttoParser文档](http://www.attoparser.org/apidocs/attoparser/2.0.4.RELEASE/org/attoparser/select/package-summary.html)上看看完整的语法。
 
-For example, the following selector will select every `<div>` with the class `content`, in every position inside the markup (note this is not as concise as it could be, read on to know why):
+比如，下面的选择器会选择标记里的每个位置上，每一个带有class属性并且其值为`content`的`<div>`（注意这没有尽可能的简洁，继续读下去你就会知道为什么）：
 
 ```html
 <div th:insert="mytemplate :: //div[@class='content']">...</div>
 ```
 
-The basic syntax includes:
+它的基本语法包括：
 
-- `/x` means direct children of the current node with name x.
+- `/x`：当前名为x的节点的直接的子节点。
 
-- `//x` means children of the current node with name x, at any depth.
+- `//x`：当前名为x的节点在任何深度上的子节点。
 
-- `x[@z="v"]` means elements with name x and an attribute called z with value “v”.
+- `x[@z="v"]`：名为x的元素，并且此元素有名为z、值为“v”的属性。
 
-- `x[@z1="v1" and @z2="v2"]` means elements with name x and attributes z1 and z2 with values “v1” and “v2”, respectively.
+- `x[@z1="v1" and @z2="v2"]`：名为x的元素，并且此元素有名为z1、值为“v1”的属性和名为z2、值为“v2”的属性。
 
-- `x[i]` means element with name x positioned in number i among its siblings.
+- `x[i]`：在名为x的元素的同级节点上，位于数字i上的元素。
 
-- `x[@z="v"][i]` means elements with name x, attribute z with value “v” and positioned in number i among its siblings that also match this condition.
+- `x[@z="v"][i]`：在名为x、含有值为“v”的属性z的元素的同级节点上，位于数字i上的元素。
 
-But more concise syntax can also be used:
+但是也可以使用更为简洁的语法：
 
-- `x` is exactly equivalent to `//x` (search an element with name or reference `x` at any depth level, a reference being a `th:ref` or a `th:fragment` attribute).
+- `x`与`//x`完全等价（在任何深度上搜索名字或者引用为`x`的元素，当是`th:ref`或者`th:fragment`时则为引用）。
 
-- Selectors are also allowed without element name/reference, as long as they include a specification of arguments. So `[@class='oneclass']` is a valid selector that looks for any elements (tags) with a class attribute with value `"oneclass"`.
+- 选择器允许没有元素名/引用，只要它们包含有参数说明。所以，`[@class='oneclass']`是一个有效的选择器。它会寻找任何带有class属性并且值为`"oneclass"`的元素（标签）。
 
 Advanced attribute selection features:
 
