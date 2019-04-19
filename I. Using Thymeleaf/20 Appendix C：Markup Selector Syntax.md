@@ -30,13 +30,13 @@ Thymeleaf的标记选择器直接借自Thymeleaf的句法分析库：[AttoParser
 
 - 选择器允许没有元素名/引用，只要它们包含有参数说明。所以，`[@class='oneclass']`是一个有效的选择器。它会寻找任何带有class属性并且值为`"oneclass"`的元素（标签）。
 
-Advanced attribute selection features:
+高级属性选择特性：
 
-- Besides = (equal), other comparison operators are also valid: `!=` (not equal), `^=` (starts with) and `$=` (ends with). For example: `x[@class^='section']` means elements with name `x` and a value for attribute `class` that starts with `section`.
+- 除了`=`（相等），另外的比较运算符同样有效：`!=`（不相等），`^=`（以······开头）以及`$=`（以······结束）。例如：`x[@class^='section']`表示名为`x`，属性`class`的值以`section`开头的元素。
 
-- Attributes can be specified both starting with `@` (XPath-style) and without (jQuery-style). So `x[z='v']` is equivalent to `x[@z='v']`.
+- 属性既可以以`@`开头（XPath风格）的方式指定，也可以不加`@`（jQuery风格）。所以，`x[z='v']`与`x[@z='v']`是等价的。
 
-- Multiple-attribute modifiers can be joined both with `and` (XPath-style) and also by chaining multiple modifiers (jQuery-style). So `x[@z1='v1' and @z2='v2']` is actually equivalent to `x[@z1='v1'][@z2='v2']` (and also to `x[z1='v1'][z2='v2']`).
+- 多属性修饰符可以用`and`（XPath风格）连接，也可以通过链接多个修饰符（jQuery风格）连接。所以，`x[@z1='v1' and @z2='v2']`实际上等价于 `x[@z1='v1'][@z2='v2']`（也等价于`x[z1='v1'][z2='v2']`）。
 
 Direct jQuery-like selectors:
 
