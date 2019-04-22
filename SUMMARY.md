@@ -141,3 +141,4 @@
         * [合计](I. Using Thymeleaf/Aggregates.md)
         * [ID](I. Using Thymeleaf/IDs.md)
     * [20 附录C：标记选择器语法](I. Using Thymeleaf/20 Appendix C：Markup Selector Syntax.md)
+        * [多值类的匹配](I. Using Thymeleaf/Multivalued class matching.md)
