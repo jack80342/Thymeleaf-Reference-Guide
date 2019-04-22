@@ -38,45 +38,44 @@ Thymeleaf的标记选择器直接借自Thymeleaf的句法分析库：[AttoParser
 
 - 多属性修饰符可以用`and`（XPath风格）连接，也可以通过链接多个修饰符（jQuery风格）连接。所以，`x[@z1='v1' and @z2='v2']`实际上等价于 `x[@z1='v1'][@z2='v2']`（也等价于`x[z1='v1'][z2='v2']`）。
 
-Direct jQuery-like selectors:
+直接类jQuery选择器：
 
-- `x.oneclass` is equivalent to `x[class='oneclass']`.
+- `x.oneclass`与`x[class='oneclass']`等价。
 
-- `.oneclass` is equivalent to `[class='oneclass']`.
+- `.oneclass`与`[class='oneclass']`等价。
 
-- `x#oneid` is equivalent to `x[id='oneid']`.
+- `x#oneid`与`x[id='oneid']`等价。
 
-- `#oneid` is equivalent to `[id='oneid']`.
+- `#oneid`与`[id='oneid']`等价。
 
-- `x%oneref` means `<x>` tags that have a `th:ref="oneref"` or `th:fragment="oneref"` attribute.
+- `x%oneref`的意思是带有`th:ref="oneref"`或者`th:fragment="oneref"`属性的`<x>`标签。 
 
-- `%oneref` means any tags that have a `th:ref="oneref"` or `th:fragment="oneref"` attribute. Note this is actually equivalent to simply `oneref` because references can be used instead of element names.
+- `%oneref`的意思是任何带有`th:ref="oneref"`或者`th:fragment="oneref"`属性的标签。注意，这实际上等同于简单的`oneref`。因为可以使用引用代替元素名。
 
-- Direct selectors and attribute selectors can be mixed: `a.external[@href^='https']`.
+- 直接选择器和属性选择器可以混合使用：`a.external[@href^='https']`。
 
-So the above Markup Selector expression:
-
+所以上面的标记选择器表达式：
 
 ```html
 <div th:insert="mytemplate :: //div[@class='content']">...</div>
 ```
 
-Could be written as:
+可以这样写：
 
 ```html
 <div th:insert="mytemplate :: div.content">...</div>
 ```
 
-Examining a different example, this:
+测试另一个不同的例子：
 
 ```html
 <div th:replace="mytemplate :: myfrag">...</div>
 ```
 
-Will look for a `th:fragment="myfrag"` fragment signature (or `th:ref` references). But would also look for tags with name `myfrag` if they existed (which they don’t, in HTML). Note the difference with:
+它会寻找一个`th:fragment="myfrag"`片段签名（或者`th:ref`引用）。但是，如果存在名为`myfrag`的标签，也会寻找（在HTML里不会）。注意与下面的语句的不同：
 
 ```html
 <div th:replace="mytemplate :: .myfrag">...</div>
 ```
 
-…which will actually look for any elements with `class="myfrag"`, without caring about `th:fragment` signatures (or `th:ref` references).
+它实际上会寻找任何带有`class="myfrag"`的元素，并不会考虑`th:fragment`签名（或者`th:ref`引用）。
