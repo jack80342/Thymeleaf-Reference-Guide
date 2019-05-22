@@ -12,5 +12,5 @@ GitBook : [Thymeleaf参考指南](https://jack80342.gitbook.io/thymeleaf/)
 
 GitHub : [Thymeleaf参考指南](https://github.com/jack80342/Thymeleaf-Reference-Guide)
 
-  我从二零一七年秋天开始翻译这份文档。出于项目需要，必须学习一下Thymeleaf，但是发现网上的中文资料寥寥无几。所幸自己英文还算可以，工作也不是很忙，就用周末的时间翻译了这份文档。本来想按顺序翻译完《Using Thymeleaf》、《Thymeleaf + Spring》、《Extending Thymeleaf》三份文档。但是不巧，之后一直忙于工作，无暇他顾。没有办法，翻译完《Using Thymeleaf》就此止步。
+  我从二零一七年秋天开始翻译这份文档。出于项目需要，必须学习一下Thymeleaf，但是发现网上的中文资料寥寥无几。所幸自己英文还算可以，就用周末的时间翻译了这份文档。本来想按顺序翻译完《Using Thymeleaf》、《Thymeleaf + Spring》、《Extending Thymeleaf》三份文档。但是不巧，之后一直忙于工作，无暇他顾。没有办法，翻译完《Using Thymeleaf》就此止步。  
   Good luck!🍭
